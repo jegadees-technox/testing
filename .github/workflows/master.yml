@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.samkirkland.com
-        username: ${{ secrets.FTP_USERNAME }}  # Replace with your GitHub secret name for FTP username
-        password: ${{ secrets.FTP_PASSWORD }}  # Replace with your GitHub secret name for FTP password
+        username: ${{ secrets.yourusername }}  # Replace with your GitHub secret name for FTP username
+        password: ${{ secrets.yourpassword }}  # Replace with your GitHub secret name for FTP password
         server-dir: /samkirkland.com/
